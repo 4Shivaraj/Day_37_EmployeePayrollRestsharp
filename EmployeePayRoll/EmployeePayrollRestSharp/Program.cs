@@ -16,14 +16,16 @@ namespace EmployeePayrollRestSharp
 }
 
 /*
- * UC-1
-Ability to Retrieve all Employees in EmployeePayroll JSON Server
+UC-2
+Ability to add a new Employee to the EmployeePayroll JSON Server
 - Use JSON Server and RESTSharp to save the EmployeePayroll Data of id, name, and salary
-- Retrieve in the MSTest Test and corresponding update the Memory with the Data
+- Ability to add using RESTSharp to JSONServer in the MSTest Test Case and then on success add to Employee Payroll
+- Validate with the successful Count
 
  Standard Output: 
-Id: 1	Name: Shivaraj	Salary: 100000
-Id: 2	Name: Cheluvesha	Salary: 98665
-Id: 3	Name: Deepak	Salary: 80000
-Id: 4	Name: Naresh	Salary: 71400
+{
+  "name": "Mounesh",
+  "salary": "78400",
+  "id": 5
+}
  */
