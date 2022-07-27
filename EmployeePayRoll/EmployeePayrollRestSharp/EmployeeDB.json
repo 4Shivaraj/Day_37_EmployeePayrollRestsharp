@@ -24,6 +24,21 @@
       "name": "Mounesh",
       "salary": "78400",
       "id": 5
+    },
+    {
+      "Name": "Kylie ",
+      "Salary": "885040",
+      "id": 6
+    },
+    {
+      "Name": "Kendall ",
+      "Salary": "125030",
+      "id": 7
+    },
+    {
+      "Name": "Kim ",
+      "Salary": "125040",
+      "id": 8
     }
   ]
 }
