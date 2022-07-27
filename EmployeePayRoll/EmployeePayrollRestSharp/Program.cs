@@ -16,15 +16,48 @@ namespace EmployeePayrollRestSharp
 }
 
 /*
-UC-4
-Ability to Update Salary in Employee Payroll JSON Server
-- Firstly Update the Salary in Memory
-- Post that Use JSON Server and RESTSharp to Update the salary
+UC-5
+Ability to Delete Employee from Employee Payroll JSON Server
+- Use JSON Server and RESTSharp to then delete the employee by ID
+- Delete the Employee from the Memory
 
-Standard Output: 
 {
-  "name": "Lisa",
-  "salary": "95000",
-  "id": 6
+  "employees": [
+    {
+      "id": 1,
+      "name": "Shivaraj",
+      "Salary": "100000"
+    },
+    {
+      "id": 2,
+      "name": "Cheluvesha",
+      "Salary": "98665"
+    },
+    {
+      "id": 3,
+      "name": "Deepak",
+      "Salary": "80000"
+    },
+    {
+      "id": 4,
+      "name": "Naresh",
+      "Salary": "71400"
+    },
+    {
+      "name": "Mounesh",
+      "salary": "78400",
+      "id": 5
+    },
+    {
+      "name": "Lisa",
+      "salary": "95000",
+      "id": 6
+    },
+    {
+      "Name": "Kim ",
+      "Salary": "125040",
+      "id": 8
+    }
+  ]
 }
  */
