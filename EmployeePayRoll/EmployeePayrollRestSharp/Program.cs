@@ -16,26 +16,15 @@ namespace EmployeePayrollRestSharp
 }
 
 /*
-UC-3
-Ability to add multiple Employee to the EmployeePayroll JSON Server
-- Use JSON Server and RESTSharp to add multiple Employees to Payroll
-- Ability to add using RESTSharp to JSONServer in the MSTest Test Case and then on success add to EmployeePayrollService
-- Validate with the successful Count
+UC-4
+Ability to Update Salary in Employee Payroll JSON Server
+- Firstly Update the Salary in Memory
+- Post that Use JSON Server and RESTSharp to Update the salary
 
 Standard Output: 
 {
-  "Name": "Kylie ",
-  "Salary": "885040",
+  "name": "Lisa",
+  "salary": "95000",
   "id": 6
-}
-{
-  "Name": "Kendall ",
-  "Salary": "125030",
-  "id": 7
-}
-{
-  "Name": "Kim ",
-  "Salary": "125040",
-  "id": 8
 }
  */
